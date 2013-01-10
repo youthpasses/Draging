@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CA86C73169BA561007D034D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA86C72169BA561007D034D /* UIKit.framework */; };
+		9CA86C75169BA561007D034D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA86C74169BA561007D034D /* Foundation.framework */; };
+		9CA86C77169BA561007D034D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA86C76169BA561007D034D /* CoreGraphics.framework */; };
+		9CA86C7D169BA561007D034D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86C7B169BA561007D034D /* InfoPlist.strings */; };
+		9CA86C7F169BA561007D034D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA86C7E169BA561007D034D /* main.m */; };
+		9CA86C83169BA561007D034D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA86C82169BA561007D034D /* AppDelegate.m */; };
+		9CA86C85169BA561007D034D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86C84169BA561007D034D /* Default.png */; };
+		9CA86C87169BA561007D034D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86C86169BA561007D034D /* Default@2x.png */; };
+		9CA86C89169BA561007D034D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86C88169BA561007D034D /* Default-568h@2x.png */; };
+		9CA86C8C169BA561007D034D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA86C8B169BA561007D034D /* ViewController.m */; };
+		9CA86C97169BA690007D034D /* UIDragButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA86C96169BA690007D034D /* UIDragButton.m */; };
+		9CA86CB6169BA916007D034D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86CAC169BA916007D034D /* 1.png */; };
+		9CA86CB7169BA916007D034D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86CAD169BA916007D034D /* 2.png */; };
+		9CA86CB8169BA916007D034D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86CAE169BA916007D034D /* 3.png */; };
+		9CA86CB9169BA916007D034D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86CAF169BA916007D034D /* 4.png */; };
+		9CA86CBA169BA916007D034D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86CB0169BA916007D034D /* 5.png */; };
+		9CA86CBB169BA916007D034D /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86CB1169BA916007D034D /* 6.png */; };
+		9CA86CBC169BA916007D034D /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86CB2169BA916007D034D /* 7.png */; };
+		9CA86CBD169BA916007D034D /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86CB3169BA916007D034D /* 8.png */; };
+		9CA86CBE169BA916007D034D /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86CB4169BA916007D034D /* 9.png */; };
+		9CA86CBF169BA916007D034D /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA86CB5169BA916007D034D /* 10.png */; };
+		9CA86CC1169BCE48007D034D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA86CC0169BCE48007D034D /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CA86C6E169BA561007D034D /* Draging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA86C72169BA561007D034D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CA86C74169BA561007D034D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CA86C76169BA561007D034D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CA86C7A169BA561007D034D /* Draging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Draging-Info.plist"; sourceTree = "<group>"; };
+		9CA86C7C169BA561007D034D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CA86C7E169BA561007D034D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CA86C80169BA561007D034D /* Draging-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Draging-Prefix.pch"; sourceTree = "<group>"; };
+		9CA86C81169BA561007D034D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CA86C82169BA561007D034D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CA86C84169BA561007D034D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9CA86C86169BA561007D034D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9CA86C88169BA561007D034D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9CA86C8A169BA561007D034D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CA86C8B169BA561007D034D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CA86C95169BA690007D034D /* UIDragButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDragButton.h; sourceTree = "<group>"; };
+		9CA86C96169BA690007D034D /* UIDragButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDragButton.m; sourceTree = "<group>"; };
+		9CA86CAC169BA916007D034D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		9CA86CAD169BA916007D034D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		9CA86CAE169BA916007D034D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		9CA86CAF169BA916007D034D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		9CA86CB0169BA916007D034D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		9CA86CB1169BA916007D034D /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		9CA86CB2169BA916007D034D /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		9CA86CB3169BA916007D034D /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		9CA86CB4169BA916007D034D /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		9CA86CB5169BA916007D034D /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		9CA86CC0169BCE48007D034D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CA86C6B169BA561007D034D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA86CC1169BCE48007D034D /* QuartzCore.framework in Frameworks */,
+				9CA86C73169BA561007D034D /* UIKit.framework in Frameworks */,
+				9CA86C75169BA561007D034D /* Foundation.framework in Frameworks */,
+				9CA86C77169BA561007D034D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CA86C63169BA561007D034D = {
+			isa = PBXGroup;
+			children = (
+				9CA86CC0169BCE48007D034D /* QuartzCore.framework */,
+				9CA86C78169BA561007D034D /* DragButtons */,
+				9CA86C71169BA561007D034D /* Frameworks */,
+				9CA86C6F169BA561007D034D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CA86C6F169BA561007D034D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA86C6E169BA561007D034D /* Draging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA86C71169BA561007D034D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CA86C72169BA561007D034D /* UIKit.framework */,
+				9CA86C74169BA561007D034D /* Foundation.framework */,
+				9CA86C76169BA561007D034D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CA86C78169BA561007D034D /* DragButtons */ = {
+			isa = PBXGroup;
+			children = (
+				9CA86C81169BA561007D034D /* AppDelegate.h */,
+				9CA86C82169BA561007D034D /* AppDelegate.m */,
+				9CA86C8A169BA561007D034D /* ViewController.h */,
+				9CA86C8B169BA561007D034D /* ViewController.m */,
+				9CA86C95169BA690007D034D /* UIDragButton.h */,
+				9CA86C96169BA690007D034D /* UIDragButton.m */,
+				9CA86C79169BA561007D034D /* Supporting Files */,
+			);
+			name = DragButtons;
+			path = Draging;
+			sourceTree = "<group>";
+		};
+		9CA86C79169BA561007D034D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CA86CAC169BA916007D034D /* 1.png */,
+				9CA86CAD169BA916007D034D /* 2.png */,
+				9CA86CAE169BA916007D034D /* 3.png */,
+				9CA86CAF169BA916007D034D /* 4.png */,
+				9CA86CB0169BA916007D034D /* 5.png */,
+				9CA86CB1169BA916007D034D /* 6.png */,
+				9CA86CB2169BA916007D034D /* 7.png */,
+				9CA86CB3169BA916007D034D /* 8.png */,
+				9CA86CB4169BA916007D034D /* 9.png */,
+				9CA86CB5169BA916007D034D /* 10.png */,
+				9CA86C7A169BA561007D034D /* Draging-Info.plist */,
+				9CA86C7B169BA561007D034D /* InfoPlist.strings */,
+				9CA86C7E169BA561007D034D /* main.m */,
+				9CA86C80169BA561007D034D /* Draging-Prefix.pch */,
+				9CA86C84169BA561007D034D /* Default.png */,
+				9CA86C86169BA561007D034D /* Default@2x.png */,
+				9CA86C88169BA561007D034D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CA86C6D169BA561007D034D /* Draging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA86C92169BA561007D034D /* Build configuration list for PBXNativeTarget "Draging" */;
+			buildPhases = (
+				9CA86C6A169BA561007D034D /* Sources */,
+				9CA86C6B169BA561007D034D /* Frameworks */,
+				9CA86C6C169BA561007D034D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Draging;
+			productName = Draging;
+			productReference = 9CA86C6E169BA561007D034D /* Draging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA86C65169BA561007D034D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = makai;
+			};
+			buildConfigurationList = 9CA86C68169BA561007D034D /* Build configuration list for PBXProject "Draging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CA86C63169BA561007D034D;
+			productRefGroup = 9CA86C6F169BA561007D034D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA86C6D169BA561007D034D /* Draging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CA86C6C169BA561007D034D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA86C7D169BA561007D034D /* InfoPlist.strings in Resources */,
+				9CA86C85169BA561007D034D /* Default.png in Resources */,
+				9CA86C87169BA561007D034D /* Default@2x.png in Resources */,
+				9CA86C89169BA561007D034D /* Default-568h@2x.png in Resources */,
+				9CA86CB6169BA916007D034D /* 1.png in Resources */,
+				9CA86CB7169BA916007D034D /* 2.png in Resources */,
+				9CA86CB8169BA916007D034D /* 3.png in Resources */,
+				9CA86CB9169BA916007D034D /* 4.png in Resources */,
+				9CA86CBA169BA916007D034D /* 5.png in Resources */,
+				9CA86CBB169BA916007D034D /* 6.png in Resources */,
+				9CA86CBC169BA916007D034D /* 7.png in Resources */,
+				9CA86CBD169BA916007D034D /* 8.png in Resources */,
+				9CA86CBE169BA916007D034D /* 9.png in Resources */,
+				9CA86CBF169BA916007D034D /* 10.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA86C6A169BA561007D034D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA86C7F169BA561007D034D /* main.m in Sources */,
+				9CA86C83169BA561007D034D /* AppDelegate.m in Sources */,
+				9CA86C8C169BA561007D034D /* ViewController.m in Sources */,
+				9CA86C97169BA690007D034D /* UIDragButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CA86C7B169BA561007D034D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA86C7C169BA561007D034D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CA86C90169BA561007D034D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9CA86C91169BA561007D034D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CA86C93169BA561007D034D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Draging/Draging-Prefix.pch";
+				INFOPLIST_FILE = "Draging/Draging-Info.plist";
+				PRODUCT_NAME = Draging;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CA86C94169BA561007D034D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Draging/Draging-Prefix.pch";
+				INFOPLIST_FILE = "Draging/Draging-Info.plist";
+				PRODUCT_NAME = Draging;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA86C68169BA561007D034D /* Build configuration list for PBXProject "Draging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA86C90169BA561007D034D /* Debug */,
+				9CA86C91169BA561007D034D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA86C92169BA561007D034D /* Build configuration list for PBXNativeTarget "Draging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA86C93169BA561007D034D /* Debug */,
+				9CA86C94169BA561007D034D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CA86C65169BA561007D034D /* Project object */;
+}
